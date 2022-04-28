@@ -56,9 +56,9 @@
 <style>
 /* @import './assets/base.css'; */
 @font-face {
-  font-family: "Satoshi";
-  src: local("Satoshi"),
-   url(./fonts/Merienda/Merienda-Regular.ttf) format("truetype");
+  font-family: "Satoshi-Regular";
+  src: local("Satoshi-Regular"),
+   url(./fonts/Satoshi-Regular.woff) format("truetype");
 }
 
 * {
@@ -71,7 +71,7 @@ body {
     display: flex;
     min-height: 100vh;
     width: 100vw;
-    font-family: "Lato", sans-serif;
+    font-family: "Satoshi", sans-serif;
 }
 
 main {
@@ -162,5 +162,17 @@ aside p {
     position: absolute;
     top: 15px;
     right: 5px;
+}
+
+@media (min-width: 700px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1000px) {
+  body {
+    font-size: 15px;
+  }
 }
 </style>
