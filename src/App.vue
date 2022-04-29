@@ -22,7 +22,7 @@
                     <select name="gender" id="gender">
                         <option>I would describe my user type as</option>
                         <option value="male">Male</option>
-                        <option value="female">Female</option>
+                         <option value="female">Female</option>
                         <option value="others">Other</option>
                         <option value="null">Prefer not to say</option>
                     </select>
@@ -166,13 +166,8 @@ aside p {
 
 @media (min-width: 700px) {
   body {
-    font-size: 14px;
+    /* flex-direction:column-reverse */
   }
 }
 
-@media (min-width: 1000px) {
-  body {
-    font-size: 15px;
-  }
-}
 </style>
