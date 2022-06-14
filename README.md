@@ -1,4 +1,5 @@
 # incsub
+This project is desktop focused only, view on mobile at your own risk tsk, i didn't get to add mobile responsiveness.
 
 This template should help get you started developing with Vue 3 in Vite.
 
